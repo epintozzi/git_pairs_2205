@@ -10,7 +10,7 @@ class BankAccount
   end
 
   def deposit(amount)
-
+    puts 'Money deposited! Niceeee.'
   end
 
   def withdraw(amount)
