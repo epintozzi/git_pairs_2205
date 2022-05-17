@@ -10,7 +10,7 @@ class BankAccount
   end
 
   def deposit(amount)
-
+    puts amount * 1000
   end
 
   def withdraw(amount)
