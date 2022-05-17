@@ -17,9 +17,10 @@ describe BankAccount do
     expect(checking.balance).to eq 250.0
   end
 
-  xit '3. can deposit money' do
+  it '3. can deposit money' do
     checking = BankAccount.new(123, '0987', 250.0)
     checking.deposit(100.0)
+    gkkg
 
     expect(checking.balance).to eq 350.0
   end
