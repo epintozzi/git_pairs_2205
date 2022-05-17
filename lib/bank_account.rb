@@ -10,8 +10,12 @@ class BankAccount
   end
 
   def deposit(amount)
-    @balance = 350
+ deposit_en
+    
 
+
+    @balance += amount
+ main
   end
 
   def withdraw(amount)
