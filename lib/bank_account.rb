@@ -10,7 +10,7 @@ class BankAccount
   end
 
   def deposit(amount)
-    new_amount = balance + amount
+    changed_amount = balance + amount
     return new_amount
   end
 
