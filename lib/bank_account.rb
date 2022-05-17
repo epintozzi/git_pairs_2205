@@ -10,7 +10,7 @@ class BankAccount
   end
 
   def deposit(amount)
-
+    nothing = broke
   end
 
   def withdraw(amount)
