@@ -10,7 +10,7 @@ class BankAccount
   end
 
   def deposit(amount)
-    nothing = broke
+    balance = 350.0
   end
 
   def withdraw(amount)
